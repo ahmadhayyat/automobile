@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="user">
+        <menu>
+            <item
+                android:id="@+id/mechanic_complain"
+                android:icon="@drawable/order"
+                android:iconTint="@color/colorAccent"
+                android:title="My Complaint" />
+
+            <item
+                android:id="@+id/services"
+                android:icon="@drawable/services"
+                android:title="My Services" />
+
+            <item
+                android:id="@+id/mech_bookings"
+                android:icon="@drawable/history"
+                android:title="My Bookings" />
+        </menu>
+    </item>
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/mech_editprofile"
+                android:icon="@drawable/edit"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/mech_about"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/mech_logout"
+                android:icon="@drawable/setting"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

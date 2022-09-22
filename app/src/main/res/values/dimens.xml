@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_micro">12sp</dimen>
+    <dimen name="text_ultra_mini">13sp</dimen>
+    <dimen name="text_mini">14sp</dimen>
+    <dimen name="text_ultra_small">16sp</dimen>
+    <dimen name="text_small">17sp</dimen>
+    <dimen name="text_moderate1">18sp</dimen>
+    <dimen name="text_moderate2">19sp</dimen>
+    <dimen name="text_moderate3">20sp</dimen>
+    <dimen name="text_big">25sp</dimen>
+    <dimen name="text_extra_big">31sp</dimen>
+    <dimen name="shortest_spacing">1dp</dimen>
+    <dimen name="short_spacing">5dp</dimen>
+    <dimen name="medium_spacing">10dp</dimen>
+    <dimen name="long_spacing">15dp</dimen>
+    <dimen name="xlong_spacing">20dp</dimen>
+    <dimen name="xxlong_spacing">25dp</dimen>
+    <dimen name="xxxlong_spacing">30dp</dimen>
+    <dimen name="xxxxlong_spacing">35dp</dimen>
+    <dimen name="mega_long_spacing">50dp</dimen>
+    <dimen name="heading">30sp</dimen>
+</resources>

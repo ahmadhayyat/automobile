@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Customer Drawer">
+        <menu>
+
+            <item
+                android:id="@+id/user_drawer_complain"
+                android:icon="@drawable/order"
+                android:iconTint="@color/colorAccent"
+                android:title="My Complaints" />
+
+            <item
+                android:id="@+id/near_by_area"
+                android:icon="@drawable/nearby"
+                android:iconTint="@color/colorAccent"
+                android:title="Nearby Areas" />
+
+            <item
+                android:id="@+id/userbooking_history"
+                android:icon="@drawable/history"
+                android:iconTint="@color/colorAccent"
+                android:title="My Bookings" />
+
+            <item
+                android:id="@+id/user_drawer_favourite"
+                android:icon="@drawable/order"
+                android:iconTint="@color/colorAccent"
+                android:title="My Favourite" />
+
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/usereditprofile"
+                android:icon="@drawable/edit"
+                android:iconTint="@color/colorAccent"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/user_about"
+                android:icon="@drawable/about"
+                android:iconTint="@color/colorAccent"
+                android:title="About App" />
+            <item
+                android:id="@+id/user_logout"
+                android:icon="@drawable/setting"
+                android:iconTint="@color/colorAccent"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

@@ -1,7 +1,6 @@
 package com.example.allinoneapplication.mechanic;
 
 import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,18 +12,16 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.net.Uri;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.example.allinoneapplication.R;
 import com.example.allinoneapplication.complain.ComplainActivity;
 import com.example.allinoneapplication.constant.EndPoint;
-import com.example.allinoneapplication.model.Booking;
 import com.example.allinoneapplication.model.Customer;
 import com.example.allinoneapplication.retrofit.RetrofitClient;
 import com.example.allinoneapplication.service.GetCustomerLocService;
-import com.example.allinoneapplication.service.UpdateBookService;
 import com.example.allinoneapplication.tracking.MapDirectionActivity;
 
 import de.hdodenhof.circleimageview.CircleImageView;
